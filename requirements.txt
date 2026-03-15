@@ -1,0 +1,21 @@
+# PDF Tool — Python dependencies
+# Install with: pip install -r requirements.txt
+#
+# Python 3.10+ required (3.11 / 3.12 recommended)
+# Ollama must be installed separately: https://ollama.com/download
+
+# ── PDF rendering (no external binaries needed) ───────────────────────────────
+PyMuPDF>=1.23.0
+
+# ── Watermark image-fallback (Strategy 4) ────────────────────────────────────
+numpy>=1.24.0
+opencv-python>=4.8.0
+
+# ── OCR output → Word document ────────────────────────────────────────────────
+python-docx>=1.1.0
+
+# ── Ollama Python client ──────────────────────────────────────────────────────
+ollama>=0.2.0
+
+# ── Progress bars ─────────────────────────────────────────────────────────────
+tqdm>=4.66.0
