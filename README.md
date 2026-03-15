@@ -54,8 +54,8 @@ pip install -r requirements.txt
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/pdf-tool.git
-cd pdf-tool
+git clone https://github.com/FlowDownTheRiver/PDF_Watermark_Cleaner_And_OCR_to_Word_Tool.git
+cd PDF_Watermark_Cleaner_And_OCR_to_Word_Tool
 
 # 2. Install Python dependencies
 pip install -r requirements.txt
